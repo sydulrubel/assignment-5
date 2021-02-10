@@ -1,0 +1,93 @@
+body{
+    margin: 0;
+    background-color: cornflowerblue;
+}
+
+#main{
+    margin-top: 80px;
+    color: rgba(12, 6, 88, 0.829);
+    font-size: 30px;
+    text-align: center;
+    
+}
+#input{
+    height: 30px;
+    width: 300px;
+    border-radius: 5px;
+}
+#btn{
+    height: 37px;
+    width: 80px;
+    border-radius: 5px;
+    color: wheat;
+    background-color: darkcyan;
+}
+
+.search-result{
+    margin-top: 40px;
+    text-align: center;
+
+}
+
+#meal-image img{
+    height: 300px;
+    width: 300px
+    
+}
+
+/* #meal-list{
+    text-align: center;
+} */
+
+#meal-item {
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+}
+
+
+#meal-details{
+    width: 300px;
+    background-color: rgb(42, 42, 141);
+    color: rgba(255, 255, 255, 0.63);
+    padding: 30px;
+    display: none;
+    margin-left: 50px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+#meal-details img{
+    width: 60%;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    
+}
+
+
+
+
+@media only screen and (min-width: 768px){ 
+    #meal-show {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 20px;
+    }
+}
+
+@media(min-width: 992px){
+    #meal-show {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
+    }
+}
+
+
+
+
+
+
